@@ -1,0 +1,54 @@
+{
+  "name": "strapi-fluent-client",
+  "version": "1.0.0",
+  "description": "A fluent Strapi API client on top of Axios and QS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4n5h/strapi-fluent-client.git"
+  },
+  "keywords": [
+    "strapi",
+    "api",
+    "client",
+    "fluent",
+    "typescript",
+    "ts",
+    "javascript",
+    "js",
+    "node",
+    "nodejs",
+    "rest",
+    "restful",
+    "request",
+    "axios",
+    "qs",
+    "strapi.js",
+    "strapijs",
+    "cms",
+    "headless"
+  ],
+  "author": "Daniel Shlomo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d4n5h/strapi-fluent-client/issues"
+  },
+  "homepage": "https://github.com/d4n5h/strapi-fluent-client#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "qs": "^6.11.2"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.9.11",
+    "typescript": "^5.3.3"
+  }
+}
